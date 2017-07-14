@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Category.CategoryPlaces"
+            android:label="@string/category_text_view_places"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Category.CategoryMuseums"
+            android:label="@string/category_text_view_places"
+            android:parentActivityName=".MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Category.CategoryParks"
+            android:label="@string/category_text_view_parks"
+            android:parentActivityName=".MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Category.CategoryAbout"
+            android:label="@string/category_text_view_about"
+            android:parentActivityName=".MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity android:name=".SubCategory" />
+        <activity android:name=".SubCategoryAdapter" />
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_Market"
+            android:label="@string/market_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_Centennial_Hall"
+            android:label="@string/centennial_hall_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_university_of_wroclaw"
+            android:label="@string/university_of_wroclaw_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_Panorama_Raclawicka"
+            android:label="@string/panorama_raclawicka_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_sts_Mary_M"
+            android:label="@string/info_sts_mary_m_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_Ostrow_Tumski"
+            android:label="@string/ostrow_tumski_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryPlaces.SubCategoryPlaces_the_Four_Denominations_District"
+            android:label="@string/the_four_denominations_district_text_view"
+            android:parentActivityName=".Category.CategoryPlaces" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_Henryk_Tomaszewski_Theatre_Museum"
+            android:label="@string/henryk_tomaszewski_theatre_museum_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_History_Centre_Zajezdnia"
+            android:label="@string/history_centre_zajezdnia_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_Pan_Tadeusz"
+            android:label="@string/pan_tadeusz_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_MWW"
+            android:label="@string/mww_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_Pharmacy"
+            android:label="@string/museum_of_pharmacy_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_Royal_Palace"
+            android:label="@string/royal_palace_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SubCategoryMuseums.SubCategoryMuseums_The_Arsenal"
+            android:label="@string/the_arsenal_text_view"
+            android:parentActivityName=".Category.CategoryMuseums" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Category.CategoryStatues"
+            android:label="@string/category_text_view_statues"
+            android:parentActivityName=".MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </application>
+
+</manifest>

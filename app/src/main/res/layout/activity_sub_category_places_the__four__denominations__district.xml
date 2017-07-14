@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/LinearLayoutSubCategory">
+
+        <ImageView
+            style="@style/SubCategoryImageView"
+            android:src="@drawable/image_the_four_d_d" />
+
+        <TextView
+            style="@style/TitleSubCategory"
+            android:text="@string/the_four_denominations_district_text_view" />
+
+        <TextView
+            style="@style/SubTitleSubCategory"
+            android:text="@string/wroclaw_text_view" />
+
+        <View style="@style/ViewStyle" />
+
+        <TextView
+            style="@style/EssencSubCategory"
+            android:text="@string/description_the_four_d_d_text_view" />
+    </LinearLayout>
+</ScrollView>

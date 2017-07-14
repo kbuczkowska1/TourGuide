@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/category_color"
+    android:minHeight="@dimen/min_height_linear_layout_list_item"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/layout_width_image_view_list_item"
+        android:layout_height="@dimen/layout_height_image_view_list_item"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="@dimen/layout_width_text_container"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_left_linear_layout_list_item">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_width_text_view_list_item"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_width_text_view_list_item"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="Description" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageGo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_image_view_list_item"
+        android:layout_gravity="right"
+        android:scaleType="center" />
+</LinearLayout>

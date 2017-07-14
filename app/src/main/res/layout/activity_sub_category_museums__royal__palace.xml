@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/LinearLayoutSubCategory">
+
+        <ImageView
+            style="@style/SubCategoryImageView"
+            android:src="@drawable/image_royal_place" />
+
+        <TextView
+            style="@style/TitleSubCategory"
+            android:text="@string/royal_palace_text_view" />
+
+        <TextView
+            style="@style/SubTitleSubCategory"
+            android:text="@string/info_royal_palace_text_view" />
+
+        <View style="@style/ViewStyle" />
+
+        <TextView
+            style="@style/EssencSubCategory"
+            android:text="@string/description_royal_palace_text_view" />
+    </LinearLayout>
+</ScrollView>
